@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+<!--these activity tabs where implemented so the user can navigate via the navigation drawer-->
+<!--they include the location of the activities (com.example.My_Dietist_Android_App.ui.home....), the layouts and the activity_mainDrawer->menu item id-->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.My_Dietist_Android_App.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+    <activity
+        android:id="@+id/nav_gallery"
+        android:name="com.example.My_Dietist_Android_App.ui.home.GalleryActivity"
+        android:label="Gallery"
+        app:action="@string/menu_gallery"
+        tools:layout="@layout/activity_gallery"></activity>
+    <activity
+        android:id="@+id/nav_contact"
+        android:name="com.example.My_Dietist_Android_App.ui.home.ContactActivity"
+        android:label="ContactUs"
+        app:action="@string/menu_contact"
+        tools:layout="@layout/activity_contact"></activity>
+    <activity
+        android:id="@+id/nav_bmi"
+        android:name="com.example.My_Dietist_Android_App.ui.home.BmiActivity"
+        android:label="BMI"
+        app:action="@string/menu_BMI"
+        tools:layout="@layout/activity_bmi"></activity>
+    <activity
+        android:id="@+id/nav_team"
+        android:name="com.example.My_Dietist_Android_App.ui.home.TeamActivity"
+        android:label="Our Team"
+        app:action="@string/menu_team"
+        tools:layout="@layout/activity_team"></activity>
+
+
+
+
+</navigation>

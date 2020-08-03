@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<!-- the necessary nav drawer menu items-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/menu_contact" />
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_BMI" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/menu_team" />
+    </group>
+</menu>

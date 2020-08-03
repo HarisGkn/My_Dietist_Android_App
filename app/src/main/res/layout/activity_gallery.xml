@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.GalleryActivity">
+<!--just a simple scrollview with some imageviews and a textview for the title-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/galleryTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UniFit" />
+
+            <ImageView
+                android:id="@+id/fitnessImageView"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginBottom="3px"
+                android:src="@drawable/fitness2"
+                android:clickable="true"
+                android:onClick="imageClicked"/>
+
+            <ImageView
+                android:id="@+id/fitnessImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginBottom="3px"
+                android:src="@drawable/fitness3"
+                android:clickable="true"
+                android:onClick="imageClicked"/>
+
+            <ImageView
+                android:id="@+id/fitnessImageView3"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginBottom="3px"
+                android:src="@drawable/fitness4"
+                android:clickable="true"
+                android:onClick="imageClicked"/>
+
+            <ImageView
+                android:id="@+id/fitnessImageView4"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/avatar2"
+                android:clickable="true"
+                android:onClick="imageClicked"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

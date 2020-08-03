@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "629376444690",
+    "firebase_url": "https://e16028-513df.firebaseio.com",
+    "project_id": "e16028-513df",
+    "storage_bucket": "e16028-513df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629376444690:android:16c90b2f4773ea1ea72bcb",
+        "android_client_info": {
+          "package_name": "com.example.My_Dietist_Android_App"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629376444690-ggfj762tqc0g19o5m409k5vb2bc1ijaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7HBRP8JeOEg7GQrnCasCbC7QvqWnjErY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629376444690-ggfj762tqc0g19o5m409k5vb2bc1ijaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
