@@ -1,1 +1,0 @@
-# My_Dietist_Android_App
